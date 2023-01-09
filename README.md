@@ -40,24 +40,24 @@ My details page is found by clicking on the gear icon next to a user's name on t
 ------------
 >[Stories 6 & 7: Beautiful Soup]  
 I use BeautifulSoup to scrape images from a wishlist on [Amazon](https://amazon.com). Users can submit their share links for their Amazon Wishlist from their profile page.  
-[Story 9: Save Scraped results]  
+[![User profile wishlist link entry form](https://github.com/DevSciCloan/PythonLiveProjectCodeSummary/blob/main/images/WishlistProfile.PNG?raw=true "User profile wishlist link form png")](https://github.com/DevSciCloan/PythonLiveProjectCodeSummary/blob/main/images/WishlistProfile.PNG)  
 
-***
-**API**
----
->[Stories 6 & 7: API]
-[Story 9: Save API or scraped results]
+>[Story 9: Save Scraped results]  
+[![Saved Scrape Results](https://github.com/DevSciCloan/PythonLiveProjectCodeSummary/blob/main/images/UserWishlistSaveData.PNG?raw=true "Saved scraped results png")](https://github.com/DevSciCloan/PythonLiveProjectCodeSummary/blob/main/images/UserWishlistSaveData.PNG)
 ***
 **Front End Development**
 ---------------------
->[Story 8: Front End Improvements]
-[Any other Front End work you’ve done that you would like to showcase]
-***
-**Save Scraped Results**
----------------------
->[Story 9: Save Scraped Results]
+>[Story 8: Front End Improvements]  
+I utilized Django tags to set active CSS styling to the navigation bar tabs.  
+[![HTML Django tags for front end improvements](https://github.com/DevSciCloan/PythonLiveProjectCodeSummary/blob/main/images/NavBarHTML.PNG?raw=true "HTML Django tags for front end improvements png")](https://github.com/DevSciCloan/PythonLiveProjectCodeSummary/blob/main/images/NavBarHTML.PNG)  
+I used CSS to add some animation to google material symbols on the homepage and the gears to link to the details page. This helps the user identify where they can or should click.  
+[![HTML Django tags for front end improvements](https://github.com/DevSciCloan/PythonLiveProjectCodeSummary/blob/main/images/NavBarHTML.PNG?raw=true "HTML Django tags for front end improvements png")](https://github.com/DevSciCloan/PythonLiveProjectCodeSummary/blob/main/images/NavBarHTML.PNG)  
 ***
 **Choose Your Own Adventure**
 ---------------------
->[Story 10: Choose Your Own Adventure]
+>[Story 10: Choose Your Own Adventure]  
+I added a function to assign Secret Santas to each user of their group.  
+[![Assign Secret Santa gif](https://github.com/DevSciCloan/PythonLiveProjectCodeSummary/blob/main/images/AssignSanta.gif?raw=true "Assign Secret Santa gif")](https://github.com/DevSciCloan/PythonLiveProjectCodeSummary/blob/main/images/AssignSanta.gif)  
+A group must contain an even number of users to make sure each person can be assigned a Secret Santa.  
+[![Assign Secret Santa Error gif](https://github.com/DevSciCloan/PythonLiveProjectCodeSummary/blob/main/images/EnsureSanta.gif?raw=true "Assign Secret Santa Error gif")](https://github.com/DevSciCloan/PythonLiveProjectCodeSummary/blob/main/images/EnsureSanta.gif)  
 ***
