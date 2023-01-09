@@ -3,34 +3,45 @@
 
 **Introduction**
 ------------
->[link](https://www.example.com/my%20great%20page)
-[![An old rock in the desert](/assets/images/shiprock.jpg "Shiprock, New Mexico by Beau Rogers")](https://www.flickr.com/photos/beaurogers/31833779864/in/photolist-Qv3rFw-34mt9F-a9Cmfy-5Ha3Zi-9msKdv-o3hgjr-hWpUte-4WMsJ1-KUQ8N-deshUb-vssBD-6CQci6-8AFCiD-zsJWT-nNfsgB-dPDwZJ-bn9JGn-5HtSXY-6CUhAL-a4UTXB-ugPum-KUPSo-fBLNm-6CUmpy-4WMsc9-8a7D3T-83KJev-6CQ2bK-nNusHJ-a78rQH-nw3NvT-7aq2qf-8wwBso-3nNceh-ugSKP-4mh4kh-bbeeqH-a7biME-q3PtTf-brFpgb-cg38zw-bXMZc-nJPELD-f58Lmo-bXMYG-bz8AAi-bxNtNT-bXMYi-bXMY6-bXMYv)
+>
+>[![An old rock in the desert](https://raw.githubusercontent.com/DevSciCloan/PythonLiveProjectCodeSummary/main/images/Introduction.PNG "Home page with basic description.")](https://github.com/DevSciCloan/PythonLiveProjectCodeSummary/blob/main/images/Introduction.PNG)
 
 ***
 
 **CRUD Functionality**
 ------------------
 
->Nam elit orci, placerat vel maximus quis, posuere id neque. Donec facilisis blandit tempus. Ut volutpat purus id lectus feugiat aliquam ac quis velit. Vestibulum sed lectus euismod, sagittis erat vitae, pulvinar nulla. Sed quis erat non odio finibus tempor a et eros. Sed ut nibh ligula.
+>[![Create function](https://github.com/DevSciCloan/PythonLiveProjectCodeSummary/blob/main/images/GenericCreate.PNG?raw=true "Generic Create Function Code Snippet.")](https://github.com/DevSciCloan/PythonLiveProjectCodeSummary/blob/main/images/GenericCreate.PNG)  
+[![Update function](https://github.com/DevSciCloan/PythonLiveProjectCodeSummary/blob/main/images/Update.PNG?raw=true "Generic Update Function Code Snippet.")](https://github.com/DevSciCloan/PythonLiveProjectCodeSummary/blob/main/images/Update.PNG)  
+[![Delete function](https://github.com/DevSciCloan/PythonLiveProjectCodeSummary/blob/main/images/Delete.gif?raw=true "Delete Function gif.")](https://github.com/DevSciCloan/PythonLiveProjectCodeSummary/blob/main/images/Delete.gif)  
 ***
 
 **Create**
 ------
->[Story 2: Create your model]
+>[Story 2: Create your model]  
+I created two models. One model contains all the Secret Santa groups that users can join. The second model contains information on each user profile that is created. The Person, i.e. user model, also contains a forgeign key to the Group model.
 ***
 **Read**
 ----
->[Story 3: Display all items from database]
->[Story 4: Details page]
+>[Story 3: Display all items from database]  
+To display all the items from the database I decided to make a page where a user can see a list of all the members of their group. This is done by using Django tags to filter all users in the Person table from the database that have the same group ForeignKey.  
+
+>[Story 4: Details page]  
+My details page is found by clicking on the gear icon next to a user's name on the page that displays all members of a group.
+
 ***
-**Update and Delete**
+**Update**
 -----------------
->[Story 5: Edit and Delete Functions]
+>[Story 5: Edit and Delete Functions]  
+[![Delete User](https://github.com/DevSciCloan/PythonLiveProjectCodeSummary/blob/main/images/Delete.gif?raw=true "Delete User example gif.")](https://github.com/DevSciCloan/PythonLiveProjectCodeSummary/blob/main/images/Delete.gif)  
+[![Change Groups](https://github.com/DevSciCloan/PythonLiveProjectCodeSummary/blob/main/images/ChangeGroups.gif?raw=true "Change Groups example gif.")](https://github.com/DevSciCloan/PythonLiveProjectCodeSummary/blob/main/images/ChangeGroups.gif)  
 ***
 **Web Scraping**
 ------------
->[Stories 6 & 7: Beautiful Soup]
-[Story 9: Save API or scraped results]
+>[Stories 6 & 7: Beautiful Soup]  
+I use BeautifulSoup to scrape images from a wishlist on [Amazon](https://amazon.com). Users can submit their share links for their Amazon Wishlist from their profile page.  
+[Story 9: Save Scraped results]  
+
 ***
 **API**
 ---
