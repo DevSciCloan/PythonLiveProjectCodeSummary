@@ -50,8 +50,9 @@ I use BeautifulSoup to scrape images from a wishlist on [Amazon](https://amazon.
 >[Story 8: Front End Improvements]  
 I utilized Django tags to set active CSS styling to the navigation bar tabs.  
 [![HTML Django tags for front end improvements](https://github.com/DevSciCloan/PythonLiveProjectCodeSummary/blob/main/images/NavBarHTML.PNG?raw=true "HTML Django tags for front end improvements png")](https://github.com/DevSciCloan/PythonLiveProjectCodeSummary/blob/main/images/NavBarHTML.PNG)  
-I used CSS to add some animation to google material symbols on the homepage and the gears to link to the details page. This helps the user identify where they can or should click.  
-[![HTML Django tags for front end improvements](https://github.com/DevSciCloan/PythonLiveProjectCodeSummary/blob/main/images/NavBarHTML.PNG?raw=true "HTML Django tags for front end improvements png")](https://github.com/DevSciCloan/PythonLiveProjectCodeSummary/blob/main/images/NavBarHTML.PNG)  
+>>I used CSS to add some animation to google material symbols on the homepage and the gears to link to the details page. This helps the user identify where they can or should click.  
+[![Details animation gif](https://github.com/DevSciCloan/PythonLiveProjectCodeSummary/blob/main/images/DetailsAnimation.gif?raw=true "Details animation gif")](https://github.com/DevSciCloan/PythonLiveProjectCodeSummary/blob/main/images/DetailsAnimation.gif)  
+[![Home animation gif](https://github.com/DevSciCloan/PythonLiveProjectCodeSummary/blob/main/images/HomeAnimation.gif?raw=true "Home animation gif")](https://github.com/DevSciCloan/PythonLiveProjectCodeSummary/blob/main/images/HomeAnimation.gif)  
 ***
 **Choose Your Own Adventure**
 ---------------------
